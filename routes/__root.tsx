@@ -79,5 +79,5 @@ function RootComponent() {
     <I18nContext.Provider value={{ lang, setLang }}>
       <Outlet />
     </I18nContext.Provider>
-  )
+  );
 }
